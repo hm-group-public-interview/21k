@@ -4,6 +4,11 @@
 
 In collaboration with a running coach, we've designed a program to help individuals complete a half-marathon at an impressive pace. We are seeking your expertise to develop the frontend for this program. Additionally, we recommend storing its data in a database; there are many free solutions available.
 
+## Host and demo
+
+The built version should be deployed on any hosting solution of your choice and a link provided for us to test.
+Vercel and Netlify both provide small free versions, but any type of hosting provider is fine.
+
 ## User Journey
 
 Upon initiating the program, users will automatically receive a daily running routine. After completing each run, users can toggle a switch to mark the run as "Done." Once this status is confirmed, the toggle turns green but remains undimmed. The last completed run will only appear dimmed after the user reloads the page.
@@ -60,7 +65,7 @@ Breakpoint starts at 768px.
 ## Technical Requirements
 
 - Use the [Figma](https://www.figma.com/file/Jxnc0GcWfB3Gs3dZ8KcmlU/CODE-Test-21k?type=design&node-id=0%3A1&mode=design&t=sqHsEXIWCKLxwJL3-1) for precise UI
-- Utilize the data and relevant fields from runs.json.
+- Utilise the data and relevant fields from runs.json.
 - The fonts in use are Google fonts and can be seen in Figma
 - Headless UI libraries such as Radix, Headless UI, or Shadcdn are permissible, provided they are easily decoupled and replaceable.
 - If the project requires credentials, communicate them to us directly via message or provide a .env.example file.
